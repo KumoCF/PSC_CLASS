@@ -1,13 +1,13 @@
-public class bank_acount {
+public class BankAccount {
     public String number;
     public double balance = 0;
 
-    public bank_acount(String number, double balance) {
+    public BankAccount(String number, double balance) {
         this.number = number;
         this.balance = balance;
     }
 
-    public String getNumbere() {
+    public String getNumber() {
         return number;
     }
 
